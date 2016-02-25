@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  compile 'org.apache.poi:poi:3.13'
+}
+
+jar {
+  baseName = 'fam-forms'
+  version = '0.1'
+}
